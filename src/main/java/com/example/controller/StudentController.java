@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 import com.example.java.Application;
 
 @Controller
@@ -11,7 +12,6 @@ import com.example.java.Application;
 public class StudentController {
 	
 	@RequestMapping("/viewTVPSSContent")
-    public String viewTVPSSContentPage() {
         return "viewTVPSSContent";
     }
 	
